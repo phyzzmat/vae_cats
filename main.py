@@ -10,8 +10,6 @@ from piq import FID
 
 
 def main(args):
-    if not Path('dataset/cats').exists():
-        os.system('unzip archive.zip ')
     config = json.loads(open(args.config).read())
     wandb.init(
         project="Cats",
