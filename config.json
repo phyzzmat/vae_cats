@@ -1,0 +1,6 @@
+{
+    "latent_dim": 64,
+    "beta": 10,
+    "batch_size": 32,
+    "lr": 5e-4
+}
