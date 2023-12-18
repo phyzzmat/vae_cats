@@ -5,6 +5,7 @@ from model import *
 import argparse
 import json
 from torchvision.io import read_image
+from torch.utils.data import TensorDataset, DataLoader
 import os
 from piq import FID
 
